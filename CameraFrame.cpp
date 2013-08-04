@@ -40,8 +40,8 @@ int main( int argc, char** argv )
 	}
 
     // Set Capture device properties.
-	capture.set(CV_CAP_PROP_FRAME_WIDTH, 640);
-	capture.set(CV_CAP_PROP_FRAME_HEIGHT, 480);
+	capture.set(CV_CAP_PROP_FRAME_WIDTH, 320);
+	capture.set(CV_CAP_PROP_FRAME_HEIGHT, 240);
 
 	namedWindow("Camera Video", CV_WINDOW_AUTOSIZE);
 	namedWindow("Processed Video", CV_WINDOW_AUTOSIZE);
