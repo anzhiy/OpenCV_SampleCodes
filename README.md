@@ -12,3 +12,5 @@ To compile This code use following guidelines :
 2) For Raspberry Pi 
 
 	g++ -O3 -mcpu=arm1176jzf-s -mfpu=vfp -mfloat-abi=hard `pkg-config --cflags opencv` filename.cpp -o outputFileName `pkg-config --libs opencv`
+
+You can create your own Makefile for different projects.
